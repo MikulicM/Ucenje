@@ -5,8 +5,7 @@
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
 # c:\xampp\mysql\bin\mysql -uroot < C:\Users\dell\Documents\EdunovaPP26\SQL\skriptapp26.sql
-# d:\xampp\mysql\bin\mysql -uroot < C:\Users\Marko\Documents\Ucenje\SQL\drzava.sql
-
+# d:\xampp\mysql\bin\mysql -uroot < C:\Users\Marko\Documents\GitHub\Ucenje\SQL\vrtic.sql
 
 drop database if exists edunovapp26;
 create database edunovapp26;

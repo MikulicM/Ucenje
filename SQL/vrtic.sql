@@ -30,4 +30,5 @@ create table strucnasprema(
     kada datetime
 );
 
-alter table djete add foreign key (odgajateljica) references skupina(odgajateljica);
+alter table skupina add foreign key (odgajateljica) references odgajateljica(sifra);
+alter table djete add foreign key (djete) references skupina(sifra);
