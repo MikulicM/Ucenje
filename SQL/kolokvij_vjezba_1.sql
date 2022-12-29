@@ -82,3 +82,4 @@ alter table zena add foreign key (sestra) references sestra(sifra);
 alter table muskarac add foreign key (zena) references zena(sifra);
 alter table mladic add foreign key (muskarac) references muskarac(sifra);
 alter table cura add foreign key (punac) references punac(sifra);
+
